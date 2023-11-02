@@ -1,0 +1,133 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    min-width: 500px;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-right: 50px;
+}
+
+.image-container img {
+    height: 106px;
+    margin: 0 0 0 -28px;
+}
+
+.text {
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    width: 440px;
+    font-weight: normal;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.box {
+    width: 390px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 0 28px;
+    margin: 40px 0 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.one input,
+.two input {
+    padding: 14px 16px;
+    font-size: 17px;
+    border-radius: 6px;
+    width: 360px;
+    font-family: inherit;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+}
+
+.one input:focus {
+    border-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1b74e4;
+    outline: none !important; 
+}
+
+.two input:focus {
+    border-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1b74e4;
+    outline: none !important;
+}
+
+
+
+.btn-login {
+    background-color: #1877f2;
+    border-radius: 6px;
+    width: 355px;
+    font-size: 20px;
+    line-height: 48px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+hr {
+    border: 1px solid #dadde1;
+    color: #dadde1;
+    align-items: center;
+    margin: 20px 16px;
+    display: flex;
+}
+
+.forgot_pass {
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-create {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    cursor: pointer;
+    color: #fff;
+    font-family: inherit;
+}
